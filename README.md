@@ -4,15 +4,23 @@ Software tools for pathway and chemical class analysis for Mass spectrometry ima
     - Z-score info: https://doi.org/10.1371/journal.pcbi.1000217
 
 To install, I recommend creating a virtual environment in order to keep the packages straight and not mess with the python system.
-''' python3.9 -m venv myenv'''
+```bash
+$ python3.9 -m venv myenv
+```
 
 Activate the environment
-""" source myenv/bin/activate   # macOS/Linux"""
-""" myenv\Scripts\activate      # Windows"""
+```bash
+$ source myenv/bin/activate   # macOS/Linux
+```
+```bash
+$ myenv\Scripts\activate      # Windows
+```
+
 
 Then install the dependencies (ensure you are in the same directory as the requirements.txt file:
-""" pip install -r requirements.txt"""
-
+```bash
+$ pip install -r requirements.txt
+```
 
 There are 3 tutorials: 
   - SPA_tutorial.ipynb: Process metaspace dataset, segment dataset, load and filter reactome, run Kernel PCA pathway analysis, cluster pathway scores and analyze intercluster variance
