@@ -17,7 +17,7 @@ $ myenv\Scripts\activate      # Windows
 ```
 
 
-Then install the dependencies (ensure you are in the same directory as the requirements.txt file:
+Then install the dependencies (ensure you are in the same directory as the requirements.txt file):
 ```bash
 $ pip install -r requirements.txt
 ```
