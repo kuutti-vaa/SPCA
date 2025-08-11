@@ -4,7 +4,7 @@ Software tools for pathway and chemical class analysis for Mass spectrometry ima
     - Z-score info: https://doi.org/10.1371/journal.pcbi.1000217
 
 To install, I recommend creating a virtual environment in order to keep the packages straight and not mess with the python system.
-"""python3.9 -m venv myenv"""
+'''python3.9 -m venv myenv'''
 
 Activate the environment
 """source myenv/bin/activate   # macOS/Linux"""
